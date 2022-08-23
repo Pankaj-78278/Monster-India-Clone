@@ -1,0 +1,9 @@
+team member 
+
+
+Ravinder -login,signup,navbar
+priyanka - landing page
+aakarsh - Javascript, api 
+pankaj - js , api
+jistesh - footer
+
