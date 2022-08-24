@@ -155,6 +155,8 @@ textData = [
   ];
 
   
+
+
   const appendData = ()=>{
     const container = document.getElementById('about');
 
@@ -175,8 +177,12 @@ textData = [
 
             const p = document.createElement('p');
             p.innerText = element.text;
-
-            div.append(p);
+            
+            const anchor = document.createElement('a');
+            anchor.href = element.link;
+             
+            anchor.append(p);
+            div.append(anchor);
             container.append(div)
         });
 });
