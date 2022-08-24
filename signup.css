@@ -1,0 +1,121 @@
+body{
+    font-family: sans-serif;
+}
+#navbar{
+    
+    margin-top: -8px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+    align-items: center;
+    background-color:  #7028b5;
+}
+#navbar>img{
+    width: 170px;
+    height: 100px;
+}
+#navbar>div{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+#navbar>div button{
+    border: transparent;
+    background-color: #7028b5;
+    color: white;
+    padding: 10px 1px;
+    font-size: 18px;
+}  
+#country{
+    border: double;
+    width: 160px;
+    padding: 1px 10px;
+}
+#container{
+    width: 70%;
+    
+    border: 1px solid red;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+#card1{
+    width: 60%;
+    border: 1px solid black;
+    
+    padding: 10px 40px;
+}
+#card2{
+    width: 35%;
+    border: 1px solid black;
+    height: 100%;
+}
+
+h3{
+    color: grey;
+    margin-bottom: 10px;
+}
+#input{
+    display: grid;
+    margin: auto;
+    margin-top: -5px;
+   
+    grid-template-columns: repeat(2,48%);
+    gap: 20px;
+    margin-bottom: 30px;
+    
+}
+h2{
+    color: #606060;
+    margin-bottom: 50px;
+}
+#input>input{
+    font-size: 15px;
+    padding: 5px 5px;
+    border: 1px solid grey;
+}
+#link{
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+#count{
+    height: 29px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#count>input{
+    width: 300px;
+    padding: 15px 10px;
+    font-size: 17px;
+}
+#count>div{
+    margin-top: -30px;
+    
+}
+#description{
+    width: 95%;
+    height: 60px;
+    padding: 7px 12px;
+    font-size: 18px;
+    overflow: scroll;
+}
+p{
+    color: grey;
+}
+#checkbox{
+    margin-top: 40px;
+}
+#dataAdded{
+    margin-top: 50px;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #7028b5;
+    color: white;
+    border: transparent;
+}
+
