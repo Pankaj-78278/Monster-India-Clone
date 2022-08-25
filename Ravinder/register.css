@@ -1,0 +1,100 @@
+body{
+   background-color: aliceblue;
+}
+#top{
+    width: 40%;
+    /* border: 1px solid red; */
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+
+}
+#top h1{
+    font-family: sans-serif;
+}
+#top p{
+    font-size: 20px;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+.free{
+    color: grey;
+}
+#links{
+    width: 440px;
+    /* border: 1px solid green; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#links>button{
+    border: 1px solid grey;
+   font-size: 15px;
+   display: flex;
+   align-items: center;
+   padding: 5px 10px;
+   background-color: white;
+   border-radius: 20px;
+}
+#links>button:hover{
+    background-color: #ff6600;
+    color: white;
+}
+#links>button>img{
+    width: 45px;
+    height: 40px;
+    border-radius: 50%;
+}
+#info{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 20px 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: white;
+    /* border: 1px solid red; */
+}
+hr{
+    width: 51%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+#info>p{
+    text-align: left;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 9%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    /* text-align: center; */
+}
+.upload{
+    color: grey;
+}
+input{
+    width: 80%;
+    font-size: 25px;
+    padding: 10px 10px;
+}
+select{
+    width: 83%;
+    font-size: 25px;
+    padding: 10px 10px;
+}
+#checkbox{
+    text-align: left;
+}
+#register{
+    font-size: 25px;
+    margin-left: 63%;
+    padding: 10px 20px;
+    background-color: rgb(62, 188, 62);
+    color: white;
+    border: transparent;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+#register:hover{
+    background-color: green;
+}

@@ -1,5 +1,6 @@
 body{
     font-family: sans-serif;
+    background-color: #e0e0e0;
 }
 #navbar{
     
@@ -33,8 +34,9 @@ body{
 }
 #container{
     width: 70%;
-    
-    border: 1px solid red;
+    background-color: white;
+    /* border: transparent; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin: auto;
     margin-top: 50px;
     display: flex;
@@ -42,13 +44,13 @@ body{
 }
 #card1{
     width: 60%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     
     padding: 10px 40px;
 }
 #card2{
     width: 35%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 100%;
 }
 
@@ -70,7 +72,7 @@ h2{
     color: #606060;
     margin-bottom: 50px;
 }
-#input>input{
+#input>input,#input>select{
     font-size: 15px;
     padding: 5px 5px;
     border: 1px solid grey;
@@ -104,7 +106,7 @@ h2{
     font-size: 18px;
     overflow: scroll;
 }
-p{
+#count p{
     color: grey;
 }
 #checkbox{
@@ -118,4 +120,95 @@ p{
     color: white;
     border: transparent;
 }
+#card2{
+    padding: 10px 35px;
+}
+#card2 p{
+      text-align: right;
+
+}
+#card2 p a{
+    color: #89a216;
+    font-size: 20px;
+    font-weight: 700;
+}
+h1{
+    color: #7028b5;
+    font-size: 22px;
+    margin-top: 50px;
+}
+.build{
+    color: #89a216;
+}
+.share{
+    color: #ff6600;
+}
+ul {
+    color: #848383;
+    margin-left: -37px;
+    font-size: 15px;
+    list-style: none;
+    
+    
+}   
+li {
+      
+      margin-bottom: 1em;
+      padding-left: 1.5em;
+      position: relative;
+    }     
+li:after {
+        content: '';
+        height: .8em;
+        width: .8em;
+        background: rgb(168, 167, 167);
+        display: block;
+        position: absolute;
+        transform: rotate(45deg);
+        top: .25em;
+        margin-top: 2px;
+        left: 0;
+      }
+
+.free{
+    color: #616168;
+    font-size: 18px;
+    font-weight: 700;
+}  
+.reach{
+    color: #616168;
+    font-size: 18px;
+    font-weight: 700;
+}          
+.followers{
+    color: #616168;
+    font-size: 18px;
+    font-weight: 700;
+}  
+.personal{
+    color: #616168;
+    font-size: 18px;
+    font-weight: 700;
+}       
+.ready{
+    color: #616168;
+    font-size: 18px;
+    font-weight: 700;
+}
+#card2 button{
+    border: transparent;
+    background-color: #7028b5;
+    color: white;
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 7px;
+    margin-left: 200px;
+    margin-top: 40px;
+}   
+#line{
+    border-left: 1px solid grey;
+    height: 900px;
+    margin-top: 90px;
+}
+    
 
