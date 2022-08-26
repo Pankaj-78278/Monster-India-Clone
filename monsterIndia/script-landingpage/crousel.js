@@ -29,7 +29,7 @@ var flk = new Flickity( el, {
   pageDots: false,
   cellAlign: 'left',
   contain: true,
-  autoPlay: 3500,
+  autoPlay: 2000,
     pauseAutoPlayOnHover: true,
     freeScroll: true,
 });
