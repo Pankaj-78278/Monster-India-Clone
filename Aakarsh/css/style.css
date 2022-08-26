@@ -1,0 +1,78 @@
+body {
+  font-family: sans-serif;
+}
+#form {
+  width: 80%;
+  margin: auto;
+}
+#form > input {
+  margin: auto;
+
+  padding: 10px;
+  width: 20%;
+}
+#form > button {
+  background-color: #6c54da;
+  border-style: none;
+  text-decoration: none;
+  color: #fff;
+  width: 10%;
+  height: 39px;
+}
+
+.description {
+  overflow-y: scroll;
+  line-height: 18px;
+  height: 100px;
+  color: #505050;
+}
+.fa-solid {
+  float: right;
+  color: grey;
+  font-size: 20px;
+  font-style: normal;
+  padding: 10px;
+}
+.inner_div {
+  height: 50px;
+  /* width: 102%; */
+  margin-top: 1%;
+  background-color: #ebebeb;
+}
+.inner_div button {
+  float: right;
+  margin-top: 8px;
+  background-color: transparent;
+  width: 8%;
+  text-decoration: none;
+  border: 1px solid #6c54da;
+  color: #6c54da;
+  padding: 5px;
+}
+.inner_div button:hover {
+  background-color: #6c54da;
+  color: white;
+}
+#get_btn {
+  padding: 10px;
+}
+
+#years > option {
+  text-align: center;
+}
+form > div {
+  border: 1px solid black;
+}
+#jobs_data {
+  width: 80%;
+  margin: auto;
+  font-family: poppins-medium-webfont;
+}
+#jobs_data > div {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin: auto;
+  margin-top: 10px;
+  font-size: 15px;
+  color: #505050;
+  padding: 10px;
+}
