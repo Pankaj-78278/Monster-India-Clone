@@ -1,4 +1,71 @@
+#right-side{
+    width:100%;
+    margin-right: 10px;
+    border: 1px solid transparent;
+    margin: auto;
+}
+#left-side{
+    width:100%;
+    border:1px solid transparent;
+}
+#sidebar-div1{
+    width: 90%;
+}
+#sidebar-div1>img{
+width:300px;
+}
+#sidebar-div2{
+    width: 90%;
+
+}
+#sidebar-div2>img{
+    padding: left 10px; ;
+    width:400px;
+    }
+
 #landingpageSplit{
     display: grid;
-    grid-template-columns: 80% 20%;
+    grid-template-columns:auto auto auto;
+    border: 1px solid transparent;
+    width: 95%;
+}
+#sidebar-div3{
+    gap:10px;
+    
+    text-align: left;
+    width:80%;
+}
+.sidebar-div3-div{
+   background-color: white;
+   margin-bottom: 10px;
+   padding: 10px;
+   font-size: 22px;
+   
+}
+.sidebar-div3-div>p>a{
+    text-decoration:none;
+}
+#sidebar-div4{
+    
+    width:80%;
+}
+#sidebar-div4>img{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#sidebar-div5{
+    gap:10px;
+    gap:10px;
+    width:80%;
+    text-align: left;
+}
+.sidebar-div5-div{
+   background-color: white;
+   margin-bottom: 10px;
+   padding: 10px;
+   font-size: 22px;
+   
+}
+.sidebar-div5-div>p>a{
+    text-decoration:none;
 }
