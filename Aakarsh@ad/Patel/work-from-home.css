@@ -1,0 +1,134 @@
+* {
+  background-color: #f5f5f5;
+}
+#alert {
+  display: flex;
+  justify-content: end;
+  color: #5d4da8;
+}
+#alert > i {
+  margin-right: 5px;
+  color: #5d4da8;
+}
+#mainDiv {
+  display: flex;
+  justify-content: space-between;
+}
+#left-Side {
+  width: 230px;
+  background-color: #f5f5f5;
+  padding: 3px 5px;
+}
+#middle-top {
+  display: flex;
+  background-color: white;
+  height: 60px;
+  justify-content: end;
+  color: gray;
+}
+#middle-top > p {
+  background-color: white;
+}
+#middle-top > div {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  border: 1px solid grey;
+}
+#Relevance {
+  width: 130px;
+  height: 30px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+#Relevance > p {
+  background-color: white;
+}
+#perPage > p {
+  background-color: white;
+}
+#perPage {
+  width: 40px;
+  height: 30px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+#short {
+  margin-left: 40px;
+}
+.fa-chevron-down {
+  background-color: white;
+}
+#type {
+  font-size: 20px;
+}
+#filter {
+  background-color: white;
+  font-size: 20px;
+  font-weight: bold;
+  color: grey;
+  height: 40px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+.outer > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 17px;
+  font-weight: bold;
+  background-color: white;
+  margin-bottom: 5px;
+}
+.subOption div {
+  display: flex;
+  background-color: white;
+}
+.name {
+  background-color: white;
+}
+.fa-plus {
+  background-color: white;
+}
+.heigth {
+  height: 40px;
+}
+.first > p,
+.second > p,
+.third > p,
+.fourth > p,
+.fifth > p {
+  background-color: white;
+}
+.subOption {
+  margin-top: -5px;
+}
+#middle-Side {
+  width: 68%;
+}
+#info div {
+  border: 1px solid grey;
+  background-color: white;
+  margin-bottom: 5px;
+}
+#info div p {
+  background-color: white;
+  font-weight: bold;
+}
+#info div p:nth-child(2) {
+  color: #5d4da8;
+  margin-top: -15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#info div p:nth-child(4) {
+  font-weight: lighter;
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#info div p:nth-child(1) {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}

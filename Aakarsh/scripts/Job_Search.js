@@ -2,6 +2,11 @@
 // "https://www.reed.co.uk/api/1.0/search?keywords=accountant&location=london&distancefromlocation=15"
 
 // https://api.adzuna.com/v1/api/jobs/gb/search/1?app_id=a1971909&app_key=96fa6f0af291a142d73cdc16a89d995c
+
+import left_side_bar from '../components/append&fetch.js';
+let x = document.getElementById('items');
+x.innerHTML = left_side_bar();
+console.log("x: ", x);
 let btn = document.getElementById('get_btn');
 btn.addEventListener('click', mybtn);
 async function mybtn() {
@@ -24,6 +29,7 @@ async function mybtn() {
 }
 let append_job_data = (data) => {
     let job_data = document.getElementById('jobs_data');
+    job_data.innerHTML = null;
     data.forEach((el) => {
         let div = document.createElement('div');
         let innr_div = document.createElement('div');
@@ -52,3 +58,18 @@ let append_job_data = (data) => {
 
     });
 };
+
+const myFunc = (element) => {
+    console.log(element, 'received');
+    if (element.querySelector('.subOption').style.display == "none")
+        element.querySelector('.subOption').style.display = "block";
+
+    else element.querySelector('.subOption').style.display = "none";
+
+};
+
+const slidDown = document.querySelectorAll('.outer');
+
+slidDown.forEach(element => {
+    element.addEventListener("click", () => myFunc(element));
+});
