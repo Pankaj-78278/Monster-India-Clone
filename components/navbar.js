@@ -9,7 +9,7 @@ let navbar= ()=>{
                 <ul>
                     <li><a href="#">job search</a>
                     <ul class="dropdown_first">
-                        <li><a href="#"> JOBS BY LOCATION</a></li>
+                        <li><a href="../pankaj/search.html"> JOBS BY LOCATION</a></li>
                         <li><a href="#">JOBS BY SKILLS</a></li>
                         <li><a href="#">JOBS BY TITLE</a></li>
                         <li><a href="#">JOBS BY FUNCTIONS</a></li>
