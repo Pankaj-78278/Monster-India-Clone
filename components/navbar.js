@@ -4,7 +4,7 @@ let navbar= ()=>{
     return `
     <div class="leftPart">
             <div class="logo">
-               
+            
                 
             </div>
             <div class="menu-area">
