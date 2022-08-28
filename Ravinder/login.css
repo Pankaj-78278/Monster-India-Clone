@@ -10,10 +10,10 @@
 }
 #navbar1>div{
     width: 25%;
-    font-size: 17px;
+    font-size: 12px;
     padding: 15px 20px;
     /* border: 1px solid red; */
-    margin-left: 900px;
+    margin-left: 800px;
     display: flex;
     background-color: #e8e8e8;
     justify-content: space-between;
@@ -21,7 +21,9 @@
 }
 #navbar1>div a{
     text-decoration: none;
+    /* border: 1px solid green; */
     color: grey;
+    /* width:82px; */
 }
 #navbar1>div a:hover{
     text-decoration: underline;
@@ -75,9 +77,9 @@
     align-items: center;
 }
 #login{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
-    
+    padding-right: 30px;
     background-color: #3b0d61;
 }
 #login img{
@@ -102,10 +104,10 @@ ul{
 }
 #loginBox{
     /* border: 1px solid red; */
-    width: 330px;
+    width: 30%;
     height: 350px;
     margin-top: 30px;
-    padding: 0px 20px;
+    padding: 0px 15px;
     background-color: white;
     border-radius: 5px;
     /* margin-left: -50px; */
@@ -131,31 +133,41 @@ ul{
 }
 #loginBox>a{
     /* font-size: 200px; */
-   margin-left: 200px;
+   margin-left: 70%;
+
+   margin-top: 30px;
+   color:blue;
 }
+
 #logined{
-     width: 330px;
-     margin-top: 20px;
+     width: 45%;
+     
+     
      font-size: 20px;
      padding: 10px 0px;
      background-color: #6965bf;
-     color: white;
+     display: block;
+     margin: auto;
+     margin-top: 25px;
+     /* color: white; */
      border: transparent;
 }
 #logined:hover{
     background-color: #6864b0;
 }
 hr{
+    width: 100%;
     margin-bottom: 10px;
 }
+
 
  input+hr{
     margin-top: 1px;
  }
 button+hr{
     margin-top: 20px;
-    width: 368px;
-    margin-left: -20px;
+    width: 100%;
+    /* margin-left: -20px; */
 }
 hr+p{
     margin-left: 100px;
@@ -176,7 +188,7 @@ h1+p{
 }
 #services{
     /* border: 1px solid red; */
-    width: 30%;
+    width: 35%;
     display: flex;
     justify-content: space-between;
     margin: auto;
@@ -205,6 +217,7 @@ h1+p{
     gap: 40px;
     /* border: 1px solid red; */
     margin-top: 40px;
+    margin-bottom: 20px;
 }
 /* #info>div{
     border: 1px solid black;
@@ -234,4 +247,7 @@ h1+p{
     background-color: #6965bf;
     color: white;
     border: transparent;
+}
+#signUp{
+    color: blue;
 }

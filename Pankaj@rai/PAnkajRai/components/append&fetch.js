@@ -6,6 +6,7 @@ let left_side_bar = () => {
             <div class="name">Function</div>
         <div class="icon"><i class="fa-solid fa-plus"></i>
         </div>    
+       
     </div>
     <div class="subOption" style="display:none">
         <div class="first">

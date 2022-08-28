@@ -1,37 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
 *{
-    margin: 0;
-    padding: 0;
+   
     outline: none;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
 }
 #navbar{
-    display: flex;
+     display: flex; 
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 80px;
+    height:100px;
+    /* border: 1px solid red; */
+    
+} 
+.logo{
+    width: 30%;
+    margin-left: 20px;
+    height: 60px;
+     background-image: url("/kaput-boundary-7997/pankaj/pic/logo.jpg"); 
+     background-size: 230px 60px;
+    background-repeat: no-repeat;
+    }
+.logo img{
+    width: 100%;
+    height: 100%;
+    
     
 }
-.logo img{
-    width: 45%;
-}
 .leftPart{
-    width: 70%;
-    margin: auto;
+    width: 98%;
+  
     display: flex;
     align-items: center;
+    /* border: 1px solid blue; */
+   
+    color: black;
 
 }
 .leftPart  .menu-area{
-    margin-left: -200px;
+    /* margin-left: -200px; */
+    /* margin: auto; */
     width: 100%;
-    float: left;
+    display: flex;
+    /* justify-content: space-around; */
+
+    /* float: left; */
 }
 .leftPart .menu-area ul{
+    font-size: 10px;
+;
+
+    /* float: left; */
+    /* margin: 0 10px; */
+    margin-left: 20px;
+
+;
     
-    float: left;
-    margin: 0 10px;
-    width:120px;
+    width:15%;
+    /* border: 1px solid red */
 
 }
 .leftPart .menu-area ul a{
@@ -43,21 +70,34 @@
 .menu-area li{
     color: #3c3c3c;
     width:200px;
+    /* margin-top: 10px; */
+    font-size: 15px;
+    /* border */
 }
 .menu-area>ul{
     list-style:none;
     padding: 0; 
     margin:0; 
+    width: 10%;
+}
+.leftPart .menu-area ul a {
+    text-transform: uppercase;
+    
+    font-size: 17px;
+    font-weight: bolder;
+    color: #3c3c3c;
 }
 .menu-area >ul >li{
-    width:200px;
+    width:111%;
     position: relative;
     cursor: pointer;
     text-align: center;
-    float: left;
-    width:250px;
-    height: 30px;
-    line-height: 40px;
+    /* float: left; */
+    height: 49px;
+    padding-top: 15px;
+    /* line-height: 40px; */
+    /* border:1px solid blue */
+    /* width:250px; */
 }
 .dropdown_first{
     position: absolute;
@@ -88,14 +128,19 @@
     /* margin:10px; */
 } 
 .menu-area ul li:hover .dropdown_first li{
+    display: block;
     width:350px;
+    position:relative;
+    background-color: white;
     /* border: 1px solid red; */
     border-bottom:1px dotted #3c3c3c;
-    background:transparent;
+    /* background:transparent; */
     text-align: left;
     color:#3c3c3c;
+    padding:20px;
     /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    text-decoration: none;
 }
 
  .right{
@@ -119,9 +164,21 @@
     color: #3c3c3c;
     border: 1px solid #3c3c3c;
     border-radius: 5px;
-    padding-top: 5px;
-    width:150px;
+    padding: 10px;
+    height: 40px;
+    width:200px; 
+       font-size: 14px;
     text-align: center;
+}
+
+.right button:first-child:hover{
+    color:white;
+    border: 1px solid WHITE ;
+    background-color: #efa621;
+   
+    
+   
+    
 }
 .right button:last-child{
     color: #3c3c3c;
@@ -130,6 +187,7 @@
     padding-top: 5px;
     width:150px;
     text-align: center;
+    height:30px;
 }
 
 

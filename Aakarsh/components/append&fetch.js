@@ -330,6 +330,7 @@ let left_side_bar = () => {
             </div> 
         </div>
     </div>
-</div>`;
+</div>
+`
 };
 export default left_side_bar;

@@ -1,7 +1,8 @@
-import footter from "./fottercomponents/fotter.js";
+// import footter from "../kaput-boundary-7997/fottercomponents/fotter.js";
+// document.getElementById("footte").innerHTML=footter();
 
-document.getElementById("footte").innerHTML=footter();
-
+import navbar from "../components/navbar.js";
+document.getElementById("navbar_priya").innerHTML=navbar();
 
 let textData = [
     {
@@ -173,6 +174,7 @@ let textData = [
 
         const h2 = document.createElement('h2');
         h2.innerText=element.heading;
+        h2.setAttribute("class","footer_heading")
 
         div.append(h2); 
         let data = element.subTexts; 
@@ -182,6 +184,7 @@ let textData = [
 
             const p = document.createElement('p');
             p.innerText = element.text;
+            p.setAttribute("class","fotter_font")
             
             const anchor = document.createElement('a');
             anchor.href = element.link;
@@ -195,4 +198,4 @@ let textData = [
 };
   
 appendData();
-export default textData;
+// export default textData;

@@ -7,69 +7,27 @@ import left_side_bar from './components/fetch.js';
 let x = document.getElementById('items');
 x.innerHTML = left_side_bar();
 // console.log("x: ", x);
-// let btn = document.getElementById('get_btn');
-// btn.addEventListener('click', mybtn);
-// async function mybtn() {
-//     let query = document.getElementById('query').value;
-//     let location_data = document.getElementById('location').value;
-//     const options = {
-//         method: 'GET',
-//         headers: {
-//             'X-RapidAPI-Key': 'c6b2d7af43mshbdf7cd2e31a5658p19318cjsn91d8c38bc5a2',
-//             'X-RapidAPI-Host': 'job-search4.p.rapidapi.com'
-//         }
-//     };
 
-//     let res = await fetch(`https://job-search4.p.rapidapi.com/monster/search?query=${query}&state=${location_data}&page=1`, options);
+import navbar from "../../components/navbar.js";
+document.getElementById("aak_navbar").innerHTML=navbar();
+
+import footter from '../../fottercomponents/fotter.js';
+let aakh_bash=document.getElementById("aak_footter");
+aakh_bash.innerHTML=footter();
+console.log(aakh_bash);
+
+
+// let url = `https://api.adzuna.com/v1/api/jobs/gb/search/1?app_id=1a5dddf5&app_key=175268e3a1ef65ec57950e91d43570a8`;
+// async function getData() {
+//     let res = await fetch(url);
 //     let data = await res.json();
-//     console.log("data: ", data);
-//     append_job_data(data.jobs);
-
+//     console.log(data);
+//     append_Data(data.results);
 
 // }
+// getData();
 
-// let append_job_data = (data) => {
-//     let job_data = document.getElementById('jobs_data');
-//     job_data.innerHTML = null;
-//     data.forEach((el) => {
-//         let div = document.createElement('div');
-//         let innr_div = document.createElement('div');
-//         innr_div.setAttribute('class', 'inner_div');
-//         innr_div.innerHTML = '<i class="fa-solid fa-star"></i> <i class="fa-solid fa-share-nodes"></i>';
-//         let btn = document.createElement('button');
-//         btn.innerText = 'Apply';
-//         innr_div.append(btn);
-//         let description_div = document.createElement('div');
-//         description_div.className = 'description';
-//         let title = document.createElement('h3');
-//         title.innerText = el.title;
-//         let company = document.createElement('p');
-//         company.innerText = el.company_name;
-//         let country = document.createElement('p');
-//         country.innerText = el.country;
-//         let location = document.createElement('h4');
-//         location.innerHTML = el.location;
-//         location.style.color = '#5d4da8';
-//         let description = document.createElement('p');
-//         description.innerText = el.description;
-
-//         description_div.append(description);
-//         div.append(title, company, country, location, description_div, innr_div);
-//         job_data.append(div);
-
-//     });
-// };
-let url = `https://api.adzuna.com/v1/api/jobs/gb/search/1?app_id=1a5dddf5&app_key=175268e3a1ef65ec57950e91d43570a8`;
-async function getData() {
-    let res = await fetch(url);
-    let data = await res.json();
-    console.log(data);
-    appendData(data.results);
-
-}
-getData();
-
-let appendData = (data) => {
+let append_Data = (data) => {
     data.forEach(el => {
         // let contain=document.createElement("div");
         let divBox = document.createElement("div");
@@ -125,3 +83,4 @@ const slidDown = document.querySelectorAll('.outer');
 slidDown.forEach(element => {
     element.addEventListener("click", () => myFunc(element));
 });
+

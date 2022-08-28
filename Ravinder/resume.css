@@ -199,10 +199,10 @@ li:after {
     border: transparent;
     background-color: #7028b5;
     color: white;
-    padding: 10px 15px;
-    font-size: 18px;
+    padding: 10px 10px;
+    font-size: 15px;
     border-radius: 7px;
-    margin-left: 200px;
+    margin-left: 170px;
     margin-top: 40px;
 }   
 #line{
