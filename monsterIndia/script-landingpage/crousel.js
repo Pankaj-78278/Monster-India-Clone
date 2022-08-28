@@ -1,4 +1,5 @@
-
+// import footter from "../../fottercomponents/fotter.js";
+// documnet.getElementById("footer").innerHTML=footter();
 
 var elems = document.querySelector('.landpage-div4-box');
 var flkty = new Flickity( elems, {
@@ -42,3 +43,11 @@ function myalert(){
         alert("try again")
     }
 }
+
+// function landing_page_alert(){
+//   let landing_page_data= JSON.parse(localStorage.getItem('info'));
+
+
+//   alert("Please Login")
+// }
+

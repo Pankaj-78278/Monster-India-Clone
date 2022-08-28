@@ -1,21 +1,26 @@
 import left_side_bar from "../PAnkajRai/components/append&fetch.js";
 document.getElementById("items").innerHTML=left_side_bar()
 
-const options = {
-	method: 'POST',
-	headers: {
-		'content-type': 'application/json',
-		'X-RapidAPI-Key': '23f782341dmsh5c51c8d63187dd8p100737jsn5d43c898519e',
-		'X-RapidAPI-Host': 'linkedin-jobs-search.p.rapidapi.com'
-	},
-	body: '{"search_terms":"manager","location":"121006","page":"1"}'
-};
-async function get_linkedin_data() {
-    let res = await fetch('https://linkedin-jobs-search.p.rapidapi.com/', options);
-    let data = await res.json();
-    console.log("data: ", data);
-    append_linkedin_Data(data);
-}
+import navbar from "../../components/navbar.js";
+document.getElementById("corona_navbar").innerHTML=navbar();
+
+import footter from "../../fottercomponents/fotter.js";
+document.getElementById("pankaj_footer").innerHTML=footter();
+// const options = {
+// 	method: 'POST',
+// 	headers: {
+// 		'content-type': 'application/json',
+// 		'X-RapidAPI-Key': '23f782341dmsh5c51c8d63187dd8p100737jsn5d43c898519e',
+// 		'X-RapidAPI-Host': 'linkedin-jobs-search.p.rapidapi.com'
+// 	},
+// 	body: '{"search_terms":"manager","location":"121006","page":"1"}'
+// };
+// async function get_linkedin_data() {
+//     let res = await fetch('https://linkedin-jobs-search.p.rapidapi.com/', options);
+//     let data = await res.json();
+//     console.log("data: ", data);
+//     append_linkedin_Data(data);
+// }
 
 
 

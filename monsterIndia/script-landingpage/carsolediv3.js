@@ -1,3 +1,6 @@
+// import footter from "../kaput-boundary-7997/fottercomponents/fotter.js";
+// document.getElementById("footer").innerHTML=footter();
+
 
     var slideIndex = 0;
     carousel();

@@ -1,3 +1,7 @@
+// import footter from "../kaput-boundary-7997/fottercomponents/fotter.js";
+// document.getElementById("footer").innerHTML=footter();
+
+
 function openJob(evt, cityName) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");

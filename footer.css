@@ -2,10 +2,10 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border:  1px solid grey;
+    /* border:  1px solid grey; */
     height: 100px;
     font-weight: bold;
-    color: grey;
+    color:grey;
     font-family: Arial, sans-serif;
 }
 select{
@@ -19,9 +19,9 @@ select{
     align-items: center;
     margin-bottom: 10px;
 }
-p+p{
+/* p+p{
     margin-top: -15px;
-}
+} */
 .fa-square-phone-flip{
     font-size: 30px;
     color:purple;
@@ -99,5 +99,12 @@ a:link {
   a:active {
     text-decoration: underline;
   }
+.fotter_font{
+    color:white;
+    font-size: 20px;
+}
 
-
+.footer_heading{
+    color: white;
+    font-size: 25px;
+}

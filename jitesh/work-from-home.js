@@ -1,3 +1,50 @@
+import navbar from "../components/navbar.js";
+document.getElementById("jite_navbar").innerHTML=navbar();
+
+import footter from "../fottercomponents/fotter.js";
+document.getElementById("jite_joifotter").innerHTML=footter();
+
+ 
+// import textData from  "../footer.js";
+// document.getElementById("jite_joifotter").innerHTML=textData();
+
+import textData from "../footer.js";
+console.log(textData);
+
+
+const appendData = ()=>{
+    const container = document.getElementById('about');
+
+    textData.forEach(element => {
+        const div = document.createElement('div');
+        div.classList.add("my-class");
+
+        const h2 = document.createElement('h2');
+        h2.innerText=element.heading;
+
+        div.append(h2); 
+        let data = element.subTexts; 
+        console.log(data);
+
+        data.forEach(element => {
+
+            const p = document.createElement('p');
+            p.innerText = element.text;
+            
+            const anchor = document.createElement('a');
+            anchor.href = element.link;
+             
+            anchor.append(p);
+            div.append(anchor);
+            container.append(div)
+        });
+});
+
+};
+  
+appendData();
+
+
 
 const dummyData={
     "date": "2022-08-26T14:36:48.782615",
@@ -323,25 +370,25 @@ const slidDown = document.querySelectorAll('.outer');
 
 
 
-async function fetchData() {
+// async function fetchData() {
    
-    const options = {
-        method: 'GET',
-        headers: {
-            'X-RapidAPI-Key': 'a5501e71ecmsh453d81c5bde5139p110152jsn1c1f290786f4',
-            'X-RapidAPI-Host': 'job-search4.p.rapidapi.com'
-        }
-    };
+//     const options = {
+//         method: 'GET',
+//         headers: {
+//             'X-RapidAPI-Key': 'a5501e71ecmsh453d81c5bde5139p110152jsn1c1f290786f4',
+//             'X-RapidAPI-Host': 'job-search4.p.rapidapi.com'
+//         }
+//     };
 
-    let res = await fetch(`https://job-search4.p.rapidapi.com/monster/search?query=software&state=CA&page=1`, options);
-    let data = await res.json();
-    console.log("data: ", data);
+//     let res = await fetch(`https://job-search4.p.rapidapi.com/monster/search?query=software&state=CA&page=1`, options);
+//     let data = await res.json();
+//     console.log("data: ", data);
     
-}
+// }
     // fetchData();
 
 
-const appendData = (dummyData) => {
+const append_Data = (dummyData) => {
 
     const container = document.getElementById('info');
     dummyData.jobs.forEach(element =>{
@@ -366,5 +413,5 @@ const appendData = (dummyData) => {
         container.append(box);
     })
 }
-appendData(dummyData);
+append_Data(dummyData);
 
