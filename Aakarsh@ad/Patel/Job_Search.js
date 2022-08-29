@@ -9,23 +9,26 @@ x.innerHTML = left_side_bar();
 // console.log("x: ", x);
 
 import navbar from "../../components/navbar.js";
-document.getElementById("aak_navbar").innerHTML=navbar();
+document.getElementById("aak_navbar").innerHTML = navbar();
 
 import footter from '../../fottercomponents/fotter.js';
-let aakh_bash=document.getElementById("aak_footter");
-aakh_bash.innerHTML=footter();
+let aakh_bash = document.getElementById("aak_footter");
+aakh_bash.innerHTML = footter();
 console.log(aakh_bash);
 
 
-// let url = `https://api.adzuna.com/v1/api/jobs/gb/search/1?app_id=1a5dddf5&app_key=175268e3a1ef65ec57950e91d43570a8`;
-// async function getData() {
-//     let res = await fetch(url);
-//     let data = await res.json();
-//     console.log(data);
-//     append_Data(data.results);
 
-// }
-// getData();
+
+
+let url = `https://api.adzuna.com/v1/api/jobs/gb/search/1?app_id=1a5dddf5&app_key=175268e3a1ef65ec57950e91d43570a8`;
+async function getData() {
+    let res = await fetch(url);
+    let data = await res.json();
+    console.log(data);
+    append_Data(data.results);
+
+}
+getData();
 
 let append_Data = (data) => {
     data.forEach(el => {

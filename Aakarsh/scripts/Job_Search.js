@@ -4,39 +4,39 @@
 // https://api.adzuna.com/v1/api/jobs/gb/search/1?app_id=a1971909&app_key=96fa6f0af291a142d73cdc16a89d995c
 
 import left_side_bar from '../components/append&fetch.js';
-document.getElementById('items').innerHTML=left_side_bar();
+document.getElementById('items').innerHTML = left_side_bar();
 // x.innerHTML = left_side_bar();
 // console.log("x: ", x);
-import navbar from  "../../components/navbar.js";
-document.getElementById("aakah_navbar").innerHTML=navbar();
+import navbar from "../../components/navbar.js";
+document.getElementById("aakah_navbar").innerHTML = navbar();
 
 import footter from '../../fottercomponents/fotter.js';
-document.getElementById("job_Search_footer").innerHTML=footter();
+document.getElementById("job_Search_footer").innerHTML = footter();
 
 // import textData from "../../footer.js";
 // document.getElementById("job_Search_footer").innerHTML=textData();
 
 
-// let btn = document.getElementById('get_btn');
-// btn.addEventListener('click', mybtn);
-// async function mybtn() {
-//     let query = document.getElementById('query').value;
-//     let location_data = document.getElementById('location').value;
-//     const options = {
-//         method: 'GET',
-//         headers: {
-//             'X-RapidAPI-Key': 'c6b2d7af43mshbdf7cd2e31a5658p19318cjsn91d8c38bc5a2',
-//             'X-RapidAPI-Host': 'job-search4.p.rapidapi.com'
-//         }
-//     };
+let btn = document.getElementById('get_btn');
+btn.addEventListener('click', mybtn);
+async function mybtn() {
+    let query = document.getElementById('query').value;
+    let location_data = document.getElementById('location').value;
+    const options = {
+        method: 'GET',
+        headers: {
+            'X-RapidAPI-Key': 'b9d8c949c2msh693959f0e49028dp18a961jsn9ce6d310ccbe',
+            'X-RapidAPI-Host': 'job-search4.p.rapidapi.com'
+        }
+    };
 
-//     let res = await fetch(`https://job-search4.p.rapidapi.com/monster/search?query=${query}&state=${location_data}&page=1`, options);
-//     let data = await res.json();
-//     console.log("data: ", data);
-//     append_job_data(data.jobs);
+    let res = await fetch(`https://job-search4.p.rapidapi.com/monster/search?query=${query}&state=${location_data}&page=1`, options);
+    let data = await res.json();
+    console.log("data: ", data);
+    append_job_data(data.jobs);
 
 
-// }
+}
 let append_job_data = (data) => {
     let job_data = document.getElementById('jobs_data');
     job_data.innerHTML = null;
