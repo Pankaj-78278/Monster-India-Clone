@@ -1,11 +1,11 @@
 <h1> MONSTER INDIA clone website </h1>
 
-<img src="https://user-images.githubusercontent.com/105920094/200625412-334d0dd2-c841-4297-a9a1-99d59d643586.png"/>
+<img src="https://user-images.githubusercontent.com/105920094/200625412-334d0dd2-c841-4297-a9a1-99d59d643586.png" width="100%"/>
 <p>
 Monster.com is a leading online employment solution helping people find the right jobs and employers with the right talent. With a technology-first approach, Monster has continuously fostered a culture of innovation to create an experience through world-class talent management, career management, and recruitment solutions to help job seekers and employers Find Better. </p>
 <img src="https://i.pinimg.com/originals/d9/9a/9a/d99a9a1b939dbd879dbe5328d86d5e90.jpg"/>
 <p>
-It is collaborative project with 5 member :
+It is collaborative project with 5 members :
 <br/>
 TeamLead : Pankaj Rai
 <br/>
