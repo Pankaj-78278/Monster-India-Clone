@@ -21,4 +21,4 @@ Member 4 : Aakarsh Patel
 <h3>Netlify link : https://magical-lollipop-a0ab27.netlify.app/</h3>
 <p>Tech Stack: HTML | CSS | JAVASCRIPT-ES6 | ADVANCE CSS | REST API </p>
 <h2>ScreenShot : </h2>
-![Screenshot 2022-11-08 223446](https://user-images.githubusercontent.com/105920094/200629532-a5977637-8861-41e8-aae3-a59a40136ab1.png)
+<img src="https://user-images.githubusercontent.com/105920094/200629532-a5977637-8861-41e8-aae3-a59a40136ab1.png" />
